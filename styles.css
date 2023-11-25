@@ -1,0 +1,84 @@
+
+#top-bar {
+    background-color: rgb(235, 232, 232);
+}
+
+#top-bar img {
+    height: 4rem;
+}
+
+#bar-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#bar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap   : 1rem;
+    font-weight: bold;
+}
+
+#bar-right img {
+    height: 2rem;
+}
+
+#banner {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#banner img {
+    height: 4rem;
+}
+
+#participants {
+    display: flex;
+    background-color: rgb(235, 232, 232);
+}
+
+#p-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.p-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.p-p img {
+    height: 10rem;
+}
+
+#p-section {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
